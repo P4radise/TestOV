@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Test">
+        <parameter name="path" value=""/>
+        <parameter name="url" value=""/>
+        <parameter name="login" value=""/>
+        <parameter name="password" value=""/>
+        <parameter name="menu_item" value="Site"/>
+        <parameter name="form_item1" value="AL13934"/>
+        <parameter name="form_item2" value="AL13936"/>
+
+        <classes>
+            <class name="TestOV"/>
+        </classes>
+    </test>
+</suite>
